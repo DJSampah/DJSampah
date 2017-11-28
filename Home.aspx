@@ -10,9 +10,7 @@
     <form id="form1" runat="server">
     <div>
     
-        Hallo iki baun kantuik
-
-        oke gan
+        Hallo andy ngangengong
     </div>
     </form>
 </body>
