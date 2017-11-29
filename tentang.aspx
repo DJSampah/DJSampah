@@ -76,7 +76,6 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		<div class="container">
 <div class="banner-bottom">
 	<div class="banner-bottom-left">
-		<h2>B<br>U<br>Y</h2>
 	</div>
 	<div class="banner-bottom-right">
 		<div  class="callbacks_container">
@@ -127,7 +126,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<div class="clearfix"> </div>
 </div>
 	<div class="shop">
-		<a href="single.html">SHOP COLLECTION NOW</a>
+		<a href="#">Cek Katalognya Disini</a>
 	</div>
 	</div>
 		</div>

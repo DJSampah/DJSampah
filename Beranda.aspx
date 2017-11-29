@@ -54,7 +54,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	        </button>
 				<div class="logo">
 					<h1>
-                        <asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="~/Coba.aspx"><span>E</span> -Shop</a></asp:HyperLink><a href="index.html"><span>E</span> -Shop</a></h1>
+                        <asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="~/Coba.aspx"><span>E</span> -Shop</a></asp:HyperLink></h1>
 				</div>
 	    </div>
 	    <!--/.navbar-header-->
@@ -76,7 +76,6 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		<div class="container">
 <div class="banner-bottom">
 	<div class="banner-bottom-left">
-		<h2>B<br>U<br>Y</h2>
 	</div>
 	<div class="banner-bottom-right">
 		<div  class="callbacks_container">
@@ -127,7 +126,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<div class="clearfix"> </div>
 </div>
 	<div class="shop">
-		<a href="single.html">SHOP COLLECTION NOW</a>
+		<a href="#">Cek Katalognya Disini</a>
 	</div>
 	</div>
 		</div>
@@ -159,28 +158,28 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<h3 class="head text-center">Latest Products</h3>
 				</header>
 					<div class="col-md-4 product simpleCart_shelfItem text-center">
-						<a href="single.html"><img src="images/p1.jpg" alt="" /></a>
+						<a href="#"><img src="images/payung.jpg" alt="" /></a>
 						<div class="mask">
-							<a href="single.html">Quick View</a>
+							<a href="#">Quick View</a>
 						</div>
-						<a class="product_name" href="single.html">Sed ut perspiciatis</a>
-						<p><a class="item_add" href="#"><i></i> <span class="item_price">$329</span></a></p>
+						<a class="product_name" href="single.html">Payung</a>
+						<p><a class="item_add" href="#"><i></i> <span class="item_price">Rp 25.000</span></a></p>
 					</div>
 					<div class="col-md-4 product simpleCart_shelfItem text-center">
-						<a href="single.html"><img src="images/p2.jpg" alt="" /></a>
+						<a href="#"><img src="images/tas.jpg" alt="" /></a>
 						<div class="mask">
-							<a href="single.html">Quick View</a>
+							<a href="#">Quick View</a>
 						</div>
-						<a class="product_name" href="single.html">great explorer</a>
-						<p><a class="item_add" href="#"><i></i> <span class="item_price">$599.8</span></a></p>
+						<a class="product_name" href="single.html">Tas</a>
+						<p><a class="item_add" href="#"><i></i> <span class="item_price">Rp 30.000</span></a></p>
 					</div>
 					<div class="col-md-4 product simpleCart_shelfItem text-center">
-						<a href="single.html"><img src="images/p3.jpg" alt="" /></a>
+						<a href="#"><img src="images/kotak pensil.jpg" alt="" /></a>
 						<div class="mask">
-							<a href="single.html">Quick View</a>
+							<a href="#">Quick View</a>
 						</div>
-						<a class="product_name" href="single.html">similique sunt</a>
-						<p><a class="item_add" href="#"><i></i> <span class="item_price">$359.6</span></a></p>
+						<a class="product_name" href="single.html">Kotak Pensil</a>
+						<p><a class="item_add" href="#"><i></i> <span class="item_price">Rp 10.000</span></a></p>
 					</div>
 					<div class="clearfix"></div>
 				</div>
