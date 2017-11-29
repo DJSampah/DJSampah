@@ -9,13 +9,7 @@
 <body>
     <form id="form1" runat="server">
     <div>
-    
-        Hallo andy ngangengong dfgdfgdfgdfgdfgd
-        iki baun
-        baa lai
 
-        diam lah lai kiii
-        tu kangapo ang woiii???
     </div>
     </form>
 </body>
