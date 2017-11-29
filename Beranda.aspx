@@ -53,9 +53,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		        <span class="icon-bar"></span>
 		        <span class="icon-bar"></span>
 	        </button>
+            <div class="logo">
 				<asp:Image ID="logo" runat="server"  Width="20%" ImageUrl="~/Gambar/logo DJSampah.png" />
-					<h1>
-                        <asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="~/Coba.aspx"><span>E</span> -Shop</a></asp:HyperLink></h1>
 				</div>
 	    </div>
 	    <!--/.navbar-header-->
