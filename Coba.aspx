@@ -53,17 +53,18 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		        <span class="icon-bar"></span>
 	        </button>
 				<div class="logo">
-					<h1><a href="index.html"><span>E</span> -Shop</a></h1>
+					<h1>
+                        <asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="~/Coba.aspx"><span>E</span> -Shop</a></asp:HyperLink><a href="index.html"><span>E</span> -Shop</a></h1>
 				</div>
 	    </div>
 	    <!--/.navbar-header-->
 	
 	    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 	        <ul class="nav navbar-nav">
-			<li><a href="index.html">Home</a></li>
-		        
-					<li><a href="typography.html">TYPO</a></li>
-					<li><a href="contact.html">CONTACT</a></li>
+			<li><asp:HyperLink ID="HyperLink3" runat="server">Home</asp:HyperLink></li>
+			<li><asp:HyperLink ID="HyperLink4" runat="server">Tutorial</asp:HyperLink></li>
+			<li><asp:HyperLink ID="HyperLink5" runat="server">Tentang</asp:HyperLink></li>
+			<li><asp:HyperLink ID="HyperLink6" runat="server">Kontak</asp:HyperLink></li>
 	        </ul>
 	    </div>
 	    <!--/.navbar-collapse-->
