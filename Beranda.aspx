@@ -23,6 +23,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<script src="js/simpleCart.min.js"> </script>
 <!-- cart -->
 <link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
+    <link rel="shortcut icon" href="Gambar/logo DJSampah.png" type="image/x-icon">
 </head>
 <body>
 	<!-- header-section-starts -->
