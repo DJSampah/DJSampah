@@ -3,7 +3,7 @@
 <!DOCTYPE html>
 <html>
 <head runat="server">
-<title>Eshop a Flat E-Commerce Bootstrap Responsive Website Template | Home :: w3layouts</title>
+<title>DJS - Disini Jual Sampah</title>
 <link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="js/jquery.min.js"></script>
@@ -43,8 +43,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		</div>
 	</div>
 	<!-- header-section-ends -->
-			<div class="banner-top">
+	<div class="inner-banner">
 		<div class="container">
+			<div class="banner-top inner-head">
 				<nav class="navbar navbar-default" role="navigation">
 	    <div class="navbar-header">
 	        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
@@ -71,125 +72,43 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	</nav>
 	<!--/.navbar-->
 </div>
-</div>
-	<div class="banner">
-		<div class="container">
-<div class="banner-bottom">
-	<div class="banner-bottom-left">
 	</div>
-	<div class="banner-bottom-right">
-		<div  class="callbacks_container">
-					<ul class="rslides" id="slider4">
-					<li>
-								<div class="banner-info">
-									<h3>Smart But Casual</h3>
-									<p>Start your shopping here...</p>
-								</div>
-							</li>
-							<li>
-								<div class="banner-info">
-								   <h3>Shop Online</h3>
-									<p>Start your shopping here...</p>
-								</div>
-							</li>
-							<li>
-								<div class="banner-info">
-								  <h3>Pack your Bag</h3>
-									<p>Start your shopping here...</p>
-								</div>								
-							</li>
-						</ul>
-					</div>
-					<!--banner-->
-	  			<script src="js/responsiveslides.min.js"></script>
-			 <script>
-			    // You can also use "$(window).load(function() {"
-			    $(function () {
-			      // Slideshow 4
-			      $("#slider4").responsiveSlides({
-			        auto: true,
-			        pager:true,
-			        nav:false,
-			        speed: 500,
-			        namespace: "callbacks",
-			        before: function () {
-			          $('.events').append("<li>before event fired.</li>");
-			        },
-			        after: function () {
-			          $('.events').append("<li>after event fired.</li>");
-			        }
-			      });
-			
-			    });
-			  </script>
-	</div>
-	<div class="clearfix"> </div>
-</div>
-	<div class="shop">
-		<a href="#">Cek Katalognya Disini</a>
-	</div>
-	</div>
-		</div>
-		<!-- content-section-starts-here -->
-		<div class="container">
-			<div class="main-content">
-				<div class="online-strip">
-					<div class="col-md-4 follow-us">
-						<h3>follow us : <a class="twitter" href="#"></a><a class="facebook" href="#"></a></h3>
-					</div>
-					<div class="col-md-4 shipping-grid">
-						<div class="shipping">
-							<img src="images/shipping.png" alt="" />
-						</div>
-						<div class="shipping-text">
-							<h3>Free Shipping</h3>
-							<p>on orders over $ 199</p>
-						</div>
-						<div class="clearfix"></div>
-					</div>
-					<div class="col-md-4 online-order">
-						<p>Order online</p>
-						<h3>Tel:999 4567 8902</h3>
-					</div>
-					<div class="clearfix"></div>
-				</div>
-				<div class="products-grid">
-				<header>
-					<h3 class="head text-center">Latest Products</h3>
-				</header>
-					<div class="col-md-4 product simpleCart_shelfItem text-center">
-						<a href="single.html"><img src="images/p1.jpg" alt="" /></a>
-						<div class="mask">
-							<a href="single.html">Quick View</a>
-						</div>
-						<a class="product_name" href="single.html">Sed ut perspiciatis</a>
-						<p><a class="item_add" href="#"><i></i> <span class="item_price">$329</span></a></p>
-					</div>
-					<div class="col-md-4 product simpleCart_shelfItem text-center">
-						<a href="single.html"><img src="images/p2.jpg" alt="" /></a>
-						<div class="mask">
-							<a href="single.html">Quick View</a>
-						</div>
-						<a class="product_name" href="single.html">great explorer</a>
-						<p><a class="item_add" href="#"><i></i> <span class="item_price">$599.8</span></a></p>
-					</div>
-					<div class="col-md-4 product simpleCart_shelfItem text-center">
-						<a href="single.html"><img src="images/p3.jpg" alt="" /></a>
-						<div class="mask">
-							<a href="single.html">Quick View</a>
-						</div>
-						<a class="product_name" href="single.html">similique sunt</a>
-						<p><a class="item_add" href="#"><i></i> <span class="item_price">$359.6</span></a></p>
-					</div>
-					<div class="clearfix"></div>
-				</div>
-			</div>
-
 		</div>
 		
-		<!-- content-section-ends-here -->
-		<div class="footer">
-		<div class="container">
+<!-- contact-page -->
+<div class="contact">
+	<div class="container">
+        <div class="contact-form">
+			<div class="contact-info">
+				<h3>Latar Belakang</h3>
+			</div>
+                <asp:Label ID="Label1" runat="server" style="text-align: justify" Text="Pada saat sekarang ini banyaknya sampah yang berserakan di Pekanbaru. Menurut data dari metrotvnews.com, ada sekitar 1.260 ton sampah plastik yang dihasilkan oleh masyarakat Pekanbaru setiap bulannya. Jika tidak segera diatasi, jumlah sampah semakin banyak dan tidak terkendali. Apalagi pada saat ini sedang musim hujan, tumpukan sampah dapat mengakibatkan terjadinya bencana banjir, selain itu sampah juga dapat menghasilkan polusi udara yang tentunya membuat masyarakat merasa tidak nyaman. Untuk mengatasi masalah banjir, pemerintah membutuhkan peran masyarakat untuk mengurangi jumlah sampah yang mereka hasilkan dari kehidupan sehari-hari. Dimulainya dari kebiasaan buruk membuang sampah sembarangan, sudah saatnya bagi masyarakat melindungi bumi ini dari sampah yang berserakan. Ada banyaknya sampah yang sulit untuk dimusnahkan namun sampah tersebut dapat di daur ulang menjadi barang yang berguna.
+Sebenarnya sampah tidak selamanya tidak berguna, masih banyak masyarakat yang tidak menyadari jika sampah dapat diolah menjadi berbagai macam benda yang memiliki nilai jual yang tinggi. Hal ini terjadi karena kurangnya pengetahuan masyarakat untuk mengolah sampah. Padahal ada banyak barang yang dapat dibuat dengan bahan dasar dari sampah yang hasilkan sehari-hari. Asalkan tahu dan mau memanfaatkan peluang tersebut, masyarakat dapat menjadikan sampah sebagai barang yang berguna.
+Oleh karena itu, kami berinisiatif untuk memberi pengetahuan kepada masyarakat tentang bagaimana mengolah sampai menjadi barang yang memiliki nilai jual dan bermanfaat, melalui sistem bernama “DJSampah”. Dengan kreativitas yang kita miliki dalam mengolah sampah, dan kami akan memberikan saldo kepada orang yang mengumpulkan sampah tertentu kemudian memberikannya ketempat penampungan sampah yang akan mengolah sampah tersebut sehingga mereka juga bisa membelanjakan saldo tersebut untuk barang yang telah jadi. Tentunya kami berharap sistem ini akan berdampak langsung terhadap peningkatan taraf perekonomian masyarakat dan mengurangi jumlah sampah yang dihasilkan dengan berdampak positif terhadap lingkungan menjadi barang yang bermanfaat. 
+"></asp:Label>
+		</div>
+        <div class="contact-form">
+			<div class="contact-info">
+				<h3>Tujuan</h3>
+			</div>
+			<p>
+                Tujuan dalam pembuatan website ini adalah :<br />
+1.	Memberikan pengetahuan kepada masyarakat bagaimana cara mengolah sampah<br />
+2.	Bertukar pikiran dalam mengolah sampah<br />
+3.	Merubah pola pikir masyarakat agar bisa memanfaatkan sampah<br />
+4.	Masyarakat bisa membelanjakan saldo yang didapat dari sampah yang dijual dengan barang yang telah jadi.<br />
+			</p>
+		</div>
+    <div class="contact-form">
+			<div class="contact-info">
+				<h3>Manfaat</h3>
+			</div>
+			<p>
+                Mengurangi sampah yang sulit untuk didaur ulang dan merubah sampah menjadi barang yang berguna untuk kebutuhan sehari-hari serta dapat menghasilkan uang tambahan kepada masyarakat.			</p>
+		</div>
+	</div>
+</div>
+<!-- //contact-page -->		
 		  <div class="copyright text-center">
 				<p>© 2015 Eshop. All Rights Reserved | Design by   <a href="http://w3layouts.com">  W3layouts</a></p>
 		  </div>

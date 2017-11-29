@@ -3,7 +3,7 @@
 <!DOCTYPE html>
 <html>
 <head runat="server">
-<title>Eshop a Flat E-Commerce Bootstrap Responsive Website Template | Home :: w3layouts</title>
+<title>DJS - Disini Jual Sampah</title>
 <link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="js/jquery.min.js"></script>
@@ -78,23 +78,17 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <!-- contact-page -->
 <div class="contact">
 	<div class="container">
-	<div class="dreamcrub">
-			   	 <ul class="breadcrumbs">
-                    <li class="home">
-                        <asp:HyperLink ID="HyperLink7" runat="server" NavigateUrl="~/beranda.aspx" title="Go to Home Page">Home</asp:HyperLink>&nbsp;
-                       <span>&gt;</span>
-                    </li>
-                    <li class="women">
-                       Contact
-                    </li>
-                </ul>
-                <ul class="previous">
-                	<li>
-                        <asp:HyperLink ID="HyperLink8" runat="server" NavigateUrl="~/beranda.aspx">Back to Previous Page</asp:HyperLink>
-                	</li>
-                </ul>
-                <div class="clearfix"></div>
-			   </div>
+        <div class="contact-form">
+			<div class="contact-info">
+				<h3>INFORMATION</h3>
+			</div>
+			<p>
+                Politeknik Caltex Riau<br />
+Pekanbaru Indonesia<br />
+Telp 1 : +62 778 5119404<br />
+Telp 2:+62 778 7486584<br />
+			</p>
+		</div>
 		<div class="contact-form">
 			<div class="contact-info">
 				<h3>CONTACT FORM</h3>
