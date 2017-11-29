@@ -22,7 +22,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <!-- cart -->
 	<script src="js/simpleCart.min.js"> </script>
 <!-- cart -->
-<link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />    
+    <link rel="shortcut icon" href="Gambar/logo DJSampah.png" type="image/x-icon">
 </head>
 <body>
 	<!-- header-section-starts -->
@@ -52,7 +53,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		        <span class="icon-bar"></span>
 		        <span class="icon-bar"></span>
 	        </button>
-				<div class="logo">
+				<asp:Image ID="logo" runat="server" ImageUrl="~/Gambar/logo DJSampah.png" Width="20%" />
 					<h1>
                         <asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="~/Coba.aspx"><span>E</span> -Shop</a></asp:HyperLink><a href="index.html"><span>E</span> -Shop</a></h1>
 				</div>
