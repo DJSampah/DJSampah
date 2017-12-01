@@ -73,126 +73,46 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<!--/.navbar-->
 </div>
 </div>
-	<div class="banner">
-		<div class="container">
-<div class="banner-bottom">
-	<div class="banner-bottom-left">
-	</div>
-	<div class="banner-bottom-right">
-		<div  class="callbacks_container">
-					<ul class="rslides" id="slider4">
-					<li>
-								<div class="banner-info">
-									<h3>Smart But Casual</h3>
-									<p>Start your shopping here...</p>
-								</div>
-							</li>
-							<li>
-								<div class="banner-info">
-								   <h3>Shop Online</h3>
-									<p>Start your shopping here...</p>
-								</div>
-							</li>
-							<li>
-								<div class="banner-info">
-								  <h3>Pack your Bag</h3>
-									<p>Start your shopping here...</p>
-								</div>								
-							</li>
-						</ul>
-					</div>
-					<!--banner-->
-	  			<script src="js/responsiveslides.min.js"></script>
-			 <script>
-			    // You can also use "$(window).load(function() {"
-			    $(function () {
-			      // Slideshow 4
-			      $("#slider4").responsiveSlides({
-			        auto: true,
-			        pager:true,
-			        nav:false,
-			        speed: 500,
-			        namespace: "callbacks",
-			        before: function () {
-			          $('.events').append("<li>before event fired.</li>");
-			        },
-			        after: function () {
-			          $('.events').append("<li>after event fired.</li>");
-			        }
-			      });
-			
-			    });
-			  </script>
-	</div>
-	<div class="clearfix"> </div>
-</div>
-	<div class="shop">
-		<a href="#">Cek Katalognya Disini</a>
-	</div>
-	</div>
-		</div>
 		<!-- content-section-starts-here -->
-		<div class="container">
-			<div class="main-content">
-				<div class="online-strip">
-					<div class="col-md-4 follow-us">
-						<h3>follow us : <a class="twitter" href="#"></a><a class="facebook" href="#"></a></h3>
-					</div>
-					<div class="col-md-4 shipping-grid">
-						<div class="shipping">
-							<img src="images/shipping.png" alt="" />
-						</div>
-						<div class="shipping-text">
-							<h3>Free Shipping</h3>
-							<p>on orders over $ 199</p>
-						</div>
-						<div class="clearfix"></div>
-					</div>
-					<div class="col-md-4 online-order">
-						<p>Order online</p>
-						<h3>Tel:999 4567 8902</h3>
-					</div>
-					<div class="clearfix"></div>
-				</div>
-				<div class="products-grid">
-				<header>
-					<h3 class="head text-center">Latest Products</h3>
-				</header>
-					<div class="col-md-4 product simpleCart_shelfItem text-center">
-						<a href="single.html"><img src="images/p1.jpg" alt="" /></a>
-						<div class="mask">
-							<a href="single.html">Quick View</a>
-						</div>
-						<a class="product_name" href="single.html">Sed ut perspiciatis</a>
-						<p><a class="item_add" href="#"><i></i> <span class="item_price">$329</span></a></p>
-					</div>
-					<div class="col-md-4 product simpleCart_shelfItem text-center">
-						<a href="single.html"><img src="images/p2.jpg" alt="" /></a>
-						<div class="mask">
-							<a href="single.html">Quick View</a>
-						</div>
-						<a class="product_name" href="single.html">great explorer</a>
-						<p><a class="item_add" href="#"><i></i> <span class="item_price">$599.8</span></a></p>
-					</div>
-					<div class="col-md-4 product simpleCart_shelfItem text-center">
-						<a href="single.html"><img src="images/p3.jpg" alt="" /></a>
-						<div class="mask">
-							<a href="single.html">Quick View</a>
-						</div>
-						<a class="product_name" href="single.html">similique sunt</a>
-						<p><a class="item_add" href="#"><i></i> <span class="item_price">$359.6</span></a></p>
-					</div>
-					<div class="clearfix"></div>
-				</div>
+		
+<div class="contact">
+	<div class="container">
+        <div class="contact-form">
+			<div class="contact-info">
+				<h3>INFORMATION</h3>
 			</div>
-
+			<p>
+                Politeknik Caltex Riau<br />
+Pekanbaru Indonesia<br />
+Telp 1 : +62 778 5119404<br />
+Telp 2:+62 778 7486584<br />
+			</p>
 		</div>
+		<div class="contact-form">
+			<div class="contact-info">
+				<h3>CONTACT FORM</h3>
+			</div>
+			<form>
+				<div class="contact-left">
+					<input type="text" placeholder="Name" required>
+					<input type="text" placeholder="E-mail" required>
+					<input type="text" placeholder="Subject" required>
+				</div>
+				<div class="contact-right">
+					<textarea placeholder="Message" required></textarea>
+				</div>
+				<div class="clearfix"></div>
+				<input type="submit" value="SUBMIT">
+			</form>
+		</div>
+	</div>
+</div>
 		
 		<!-- content-section-ends-here -->
 		<div class="footer">
 		<div class="container">
 		  <div class="copyright text-center">
-				<p>© 2015 Eshop. All Rights Reserved | Design by   <a href="http://w3layouts.com">  W3layouts</a></p>
+				<p>© 2015 DJSampah. All Rights Reserved | Design by   <a href="http://w3layouts.com">  W3layouts</a></p>
 		  </div>
 		</div>
 		</div>
