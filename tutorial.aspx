@@ -82,7 +82,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<h3>15 Kreasi Dari Sampah</h3>
 			</div>
 			<video width="1170" height="640" controls>
-                <source src="Video/DIY Room Decor 2017! 15 Easy Crafts Ideas at Home - Simple Life Hacks for Girls - YouTube_2.MP4" type="audio/mp4" />
+                <source src="Video/DIY Room Decor 2017! 15 Easy Crafts Ideas at Home - Simple Life Hacks for Girls - YouTube_2.MP4"  type="audio/mp4" />
 			</video>            
                 <p>Source Video : <asp:HyperLink ID="HyperLink2" runat="server" Target="_blank" NavigateUrl="https://www.youtube.com/watch?v=MtuMm2c0CLw">Youtube</asp:HyperLink></p>
 		</div>
