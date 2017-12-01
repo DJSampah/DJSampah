@@ -77,33 +77,14 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		
 <div class="contact">
 	<div class="container">
-        <div class="contact-form">
-			<div class="contact-info">
-				<h3>INFORMATION</h3>
-			</div>
-			<p>
-                Politeknik Caltex Riau<br />
-Pekanbaru Indonesia<br />
-Telp 1 : +62 778 5119404<br />
-Telp 2:+62 778 7486584<br />
-			</p>
-		</div>
 		<div class="contact-form">
 			<div class="contact-info">
-				<h3>CONTACT FORM</h3>
+				<h3>15 Kreasi Dari Sampah</h3>
 			</div>
-			<form>
-				<div class="contact-left">
-					<input type="text" placeholder="Name" required>
-					<input type="text" placeholder="E-mail" required>
-					<input type="text" placeholder="Subject" required>
-				</div>
-				<div class="contact-right">
-					<textarea placeholder="Message" required></textarea>
-				</div>
-				<div class="clearfix"></div>
-				<input type="submit" value="SUBMIT">
-			</form>
+			<video width="1170" height="640" controls>
+                <source src="Video/(2) DIY Room Decor 2017! 15 Easy Crafts Ideas at Home - Simple Life Hacks for Girls - YouTube.MKV" type="audio/mp4" />
+                <p>Source Video : <asp:HyperLink ID="HyperLink2" runat="server" Target="_blank" NavigateUrl="https://www.youtube.com/watch?v=MtuMm2c0CLw">Youtube</asp:HyperLink></p>
+			</video>
 		</div>
 	</div>
 </div>
