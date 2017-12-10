@@ -1,9 +1,9 @@
-﻿<%@ Master Language="VB" CodeFile="MasterPage.master.vb" Inherits="Member_MasterPage" %>
+﻿<%@ Master Language="VB" CodeFile="MasterAdmin.master.vb" Inherits="Admin_MasterAdmin" %>
 
 <!DOCTYPE html>
 <html>
 <head runat="server">
-<title>DJSampah | Member</title>
+<title>DJSampah | Admin</title>
 <link href="../css/bootstrap.css" rel='stylesheet' type='text/css' />
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="../js/jquery.min.js"></script>
@@ -64,8 +64,6 @@
 	        <ul class="nav navbar-nav">
 			<li><a href="index.html">AKUN</a></li>
 					<li><a href="typography.html">TRANSAKSI</a></li>
-					<li><a href="contact.html">SHOP</a></li>
-                <li><a href="contact.html">TUTORIAL</a></li>
 	        </ul>
 	    </div>
 	    <!--/.navbar-collapse-->
@@ -94,3 +92,6 @@
 		</div>
 </body>
 </html>
+
+
+
