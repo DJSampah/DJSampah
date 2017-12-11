@@ -36,7 +36,7 @@
 					</ul>
 				</div>
 				<div class="header-right">
-                    <asp:HyperLink ID="HyperLink1" runat="server" ForeColor="White" NavigateUrl="~/Default.aspx"><span class="glyphicon glyphicon-user"> </span>Logout</asp:HyperLink>
+                    <asp:HyperLink ID="logout" runat="server" ForeColor="White" NavigateUrl="~/Default.aspx"><span class="glyphicon glyphicon-user"> </span>Logout</asp:HyperLink>
 				</div>
 				<div class="clearfix"> </div>
 			</div>
@@ -62,10 +62,14 @@
 	
 	    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 	        <ul class="nav navbar-nav">
-			<li><a href="index.html">AKUN</a></li>
-					<li><a href="typography.html">TRANSAKSI</a></li>
-					<li><a href="contact.html">SHOP</a></li>
-                <li><a href="contact.html">TUTORIAL</a></li>
+			<li>
+                <asp:HyperLink ID="akun" runat="server" NavigateUrl="~/Member/Akun.aspx">AKUN</asp:HyperLink></li>
+					<li>
+                        <asp:HyperLink ID="transaksi" runat="server" NavigateUrl="~/Member/Transaksi.aspx">TRANSAKSI</asp:HyperLink></li>
+					<li>
+                        <asp:HyperLink ID="shop" runat="server" NavigateUrl="~/Member/Shop.aspx">SHOP</asp:HyperLink></li>
+                <li>
+                    <asp:HyperLink ID="tutorial" runat="server" NavigateUrl="~/Member/Tutorial.aspx">TUTORIAL</asp:HyperLink></li>
 	        </ul>
 	    </div>
 	    <!--/.navbar-collapse-->
@@ -78,9 +82,11 @@
     <div class="content">
 		<div class="container">			   
 			<div class="typrography">
+                <form id="form1" runat="server">
     <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
         
         </asp:ContentPlaceHolder>
+                    </form>
                 </div>
             </div>
         </div>

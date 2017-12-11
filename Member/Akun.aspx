@@ -7,52 +7,53 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
-    <div class="page-header">
-            <h1>Tables</h1>
-          </div>
+    
+    <div class="dreamcrub">
+			   	 <ul class="breadcrumbs">
+                    <li class="home">
+                       <p style="font-size:xx-large">Akun Member</p>
+                    </li>
+                </ul>
+                <ul class="previous">
+                	<li><p style="font-size:xx-large">Saldo : Rp. 155550</p></li>
+                </ul>
+                <div class="clearfix"></div>
+			   </div>
     <div class="bs-docs-example">
-        <table class="table">
-                <td>Nama Member</td>
-                <td>Saldo</td>
+
+                    
+        <table class="nav-justified table">
+            <tr>
+                <td>Nama</td>
+                <td>:</td>
+                <td>Fandy Rifqi</td>
             </tr>
             <tr>
-                <td>
-                    <table class="table table-hover">
-							<thead>
-								<tr>
-									<th>#</th>
-									<th>First Name</th>
-									<th>Last Name</th>
-									<th>Username</th>
-								</tr>
-							</thead>
-							<tbody>
-								<tr>
-									<td>1</td>
-									<td>Mark</td>
-									<td>Otto</td>
-									<td>@mdo</td>
-								</tr>
-								<tr>
-									<td>2</td>
-									<td>Jacob</td>
-									<td>Thornton</td>
-									<td>@fat</td>
-								</tr>
-								<tr>
-									<td>3</td>
-									<td colspan="2">Larry the Bird</td>
-									<td>@twitter</td>
-								</tr>
-							</tbody>
-						</table>
-                </td>
+                <td>Alamat</td>
+                <td>:</td>
+                <td>Pekanbaru</td>
             </tr>
             <tr>
-                <td></td>
+                <td>Email</td>
+                <td>:</td>
+                <td>ikimeong@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Password</td>
+                <td>:</td>
+                <td>****</td>
             </tr>
         </table>
-						
-					</div>
+
+                    
+        <div class="dreamcrub">
+                <ul class="previous">
+                	<li>
+                        <asp:Button ID="Button1" runat="server" Text="Edit" /></li>
+                </ul>
+                <div class="clearfix"></div>
+			   </div>
+        </div>
+        
 </asp:Content>
 
