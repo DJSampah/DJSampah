@@ -112,7 +112,5 @@ Telp 2:+62 778 7486584<br />
 		  <div class="copyright text-center">
 				<p>© 2015 DJSampah. All Rights Reserved | Design by   <a href="http://w3layouts.com">  W3layouts</a></p>
 		  </div>
-		</div>
-		</div>
 </body>
 </html>
