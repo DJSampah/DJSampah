@@ -191,7 +191,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		<div class="footer">
 		<div class="container">
 		  <div class="copyright text-center">
-				<p>© 2015 DJSampah. All Rights Reserved | Design by   <a href="http://w3layouts.com">  W3layouts</a></p>
+				<p>© 2015 DJSampah. All Rights Reservead | Design by   <a href="http://w3layouts.com">  W3layouts</a></p>
 		  </div>
 		</div>
 		</div>

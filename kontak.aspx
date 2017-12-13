@@ -110,7 +110,7 @@ Telp 2:+62 778 7486584<br />
 </div>
 <!-- //contact-page -->		
 		  <div class="copyright text-center">
-				<p>© 2015 DJSampah. All Rights Reserved | Design by   <a href="http://w3layouts.com">  W3layouts</a></p>
+				<p>© 2015 DJSampah. All Rights Reservead | Design by   <a href="http://w3layouts.com">  W3layouts</a></p>
 		  </div>
 </body>
 </html>
