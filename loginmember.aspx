@@ -72,8 +72,18 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			</div>
 			<form id="formlogin" runat="server">
 				<div class="contact-right">
-                    <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox></br>
-                    <asp:TextBox ID="TextBox2" runat="server"></asp:TextBox>
+                    
+				    <table class="nav-justified">
+                        <tr>
+                            <td>Username</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Password</td>
+                            <td></td>
+                        </tr>
+                    </table>
+                    
 				</div>
 				<div class="clearfix"></div>
 				<input type="submit" value="SUBMIT">
