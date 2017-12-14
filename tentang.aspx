@@ -36,7 +36,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					</ul>
 				</div>
 				<div class="header-right">
-                    <asp:HyperLink ID="HyperLink1" runat="server" ForeColor="White" NavigateUrl="~/Default.aspx"><span class="glyphicon glyphicon-user"> </span>Login</asp:HyperLink>
+                    <asp:HyperLink ID="HyperLink1" runat="server" ForeColor="White" NavigateUrl="~/Template_Login/login.aspx"><span class="glyphicon glyphicon-user"> </span>Login</asp:HyperLink>
 				</div>
 				<div class="clearfix"> </div>
 			</div>
@@ -96,7 +96,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
             </div>
 	</div>
 </div>
-<!-- //contact-page -->		
+<!-- //contact-page -->	
+    <div class="footer">
+		<div class="container">	
 		  <div class="copyright text-center">
 				<p>© 2015 DJSampah. All Rights Reserved | Design by   <a href="http://w3layouts.com">  W3layouts</a></p>
 		  </div>

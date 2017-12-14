@@ -8,6 +8,7 @@
     <link rel='stylesheet prefetch' href='http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css'>
 
       <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="../Gambar/logo DJSampah.png" type="image/x-icon">
 </head>
 <body>
     <form id="form1" runat="server">
