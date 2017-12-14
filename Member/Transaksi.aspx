@@ -4,24 +4,23 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
     <div class="bs-docs-example">
+        <h4>Data Transaksi</h4>
             <table class="table table-bordered">
               <thead>
                 <tr>
                   <th>No</th>
                   <th>Email</th>
-                  <th>Nama</th>
-                  <th>Jenis</th>
-                    <th>Jumlah</th>
-                    <th>Total Saldo</th>
+                  <th>Nama Barang</th>
+                  <th>Jumlah</th>
+                    <th>Total Harga</th>
                 </tr>
               </thead>
               <tbody>
                 <tr>
                   <td rowspan="2">1</td>
                   <td>ikimeong@gmail.com</td>
-                  <td>Fandy Rifqi</td>
-                  <td>Koran</td>
-                    <td>10 Kg</td>
+                  <td>Payung</td>
+                    <td>2</td>
                     <td>20000</td>
                 </tr>
               </tbody>
