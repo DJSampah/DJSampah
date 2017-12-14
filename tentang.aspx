@@ -80,32 +80,20 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<div class="container">
         <div class="contact-form">
 			<div class="contact-info">
-				<h3>Latar Belakang</h3>
 			</div>
-                <asp:Label ID="Label1" runat="server" style="text-align: justify" Text="Pada saat sekarang ini banyaknya sampah yang berserakan di Pekanbaru. Menurut data dari metrotvnews.com, ada sekitar 1.260 ton sampah plastik yang dihasilkan oleh masyarakat Pekanbaru setiap bulannya. Jika tidak segera diatasi, jumlah sampah semakin banyak dan tidak terkendali. Apalagi pada saat ini sedang musim hujan, tumpukan sampah dapat mengakibatkan terjadinya bencana banjir, selain itu sampah juga dapat menghasilkan polusi udara yang tentunya membuat masyarakat merasa tidak nyaman. Untuk mengatasi masalah banjir, pemerintah membutuhkan peran masyarakat untuk mengurangi jumlah sampah yang mereka hasilkan dari kehidupan sehari-hari. Dimulainya dari kebiasaan buruk membuang sampah sembarangan, sudah saatnya bagi masyarakat melindungi bumi ini dari sampah yang berserakan. Ada banyaknya sampah yang sulit untuk dimusnahkan namun sampah tersebut dapat di daur ulang menjadi barang yang berguna.
-Sebenarnya sampah tidak selamanya tidak berguna, masih banyak masyarakat yang tidak menyadari jika sampah dapat diolah menjadi berbagai macam benda yang memiliki nilai jual yang tinggi. Hal ini terjadi karena kurangnya pengetahuan masyarakat untuk mengolah sampah. Padahal ada banyak barang yang dapat dibuat dengan bahan dasar dari sampah yang hasilkan sehari-hari. Asalkan tahu dan mau memanfaatkan peluang tersebut, masyarakat dapat menjadikan sampah sebagai barang yang berguna.
-Oleh karena itu, kami berinisiatif untuk memberi pengetahuan kepada masyarakat tentang bagaimana mengolah sampai menjadi barang yang memiliki nilai jual dan bermanfaat, melalui sistem bernama “DJSampah”. Dengan kreativitas yang kita miliki dalam mengolah sampah, dan kami akan memberikan saldo kepada orang yang mengumpulkan sampah tertentu kemudian memberikannya ketempat penampungan sampah yang akan mengolah sampah tersebut sehingga mereka juga bisa membelanjakan saldo tersebut untuk barang yang telah jadi. Tentunya kami berharap sistem ini akan berdampak langsung terhadap peningkatan taraf perekonomian masyarakat dan mengurangi jumlah sampah yang dihasilkan dengan berdampak positif terhadap lingkungan menjadi barang yang bermanfaat. 
-"></asp:Label>
-		</div>
-        <div class="contact-form">
-			<div class="contact-info">
-				<h3>Tujuan</h3>
-			</div>
-			<p>
-                Tujuan dalam pembuatan website ini adalah :<br />
-1.	Memberikan pengetahuan kepada masyarakat bagaimana cara mengolah sampah<br />
-2.	Bertukar pikiran dalam mengolah sampah<br />
-3.	Merubah pola pikir masyarakat agar bisa memanfaatkan sampah<br />
-4.	Masyarakat bisa membelanjakan saldo yang didapat dari sampah yang dijual dengan barang yang telah jadi.<br />
-			</p>
-		</div>
-    <div class="contact-form">
-			<div class="contact-info">
-				<h3>Manfaat</h3>
-			</div>
-			<p>
-                Mengurangi sampah yang sulit untuk didaur ulang dan merubah sampah menjadi barang yang berguna untuk kebutuhan sehari-hari serta dapat menghasilkan uang tambahan kepada masyarakat.			</p>
-		</div>
+            <center>
+                <asp:Image ID="Image1" runat="server" ImageUrl="~/Gambar/Volume-Sampah-Jakarta-030213-YM-1.jpg" Width="640" Height="480"/>
+            </center>            
+                <asp:Label ID="Label1" runat="server" Text="Pada saat sekarang ini banyaknya sampah yang berserakan di Pekanbaru. Menurut data dari metrotvnews.com, ada sekitar 1.260 ton sampah plastik yang dihasilkan oleh masyarakat Pekanbaru setiap bulannya. Jika tidak segera diatasi, jumlah sampah semakin banyak dan tidak terkendali. Apalagi pada saat ini sedang musim hujan, tumpukan sampah dapat mengakibatkan terjadinya bencana banjir, selain itu sampah juga dapat menghasilkan polusi udara yang tentunya membuat masyarakat merasa tidak nyaman. Untuk mengatasi masalah banjir, pemerintah membutuhkan peran masyarakat untuk mengurangi jumlah sampah yang mereka hasilkan dari kehidupan sehari-hari. Dimulainya dari kebiasaan buruk membuang sampah sembarangan, sudah saatnya bagi masyarakat melindungi bumi ini dari sampah yang berserakan. Ada banyaknya sampah yang sulit untuk dimusnahkan namun sampah tersebut dapat di daur ulang menjadi barang yang berguna."></asp:Label>
+            <center>
+                <asp:Image ID="Image2" runat="server" Height="480" Width="640" ImageUrl="~/Gambar/SEKOLAH-PENGOLAHAN-SAMPAH.jpg"></asp:Image>
+            </center>
+                <asp:Label ID="Label2" runat="server" Text="Sebenarnya sampah tidak selamanya tidak berguna, masih banyak masyarakat yang tidak menyadari jika sampah dapat diolah menjadi berbagai macam benda yang memiliki nilai jual yang tinggi. Hal ini terjadi karena kurangnya pengetahuan masyarakat untuk mengolah sampah. Padahal ada banyak barang yang dapat dibuat dengan bahan dasar dari sampah yang hasilkan sehari-hari. Asalkan tahu dan mau memanfaatkan peluang tersebut, masyarakat dapat menjadikan sampah sebagai barang yang berguna." style="text-align: justify"></asp:Label>
+            <center>
+                <asp:Image ID="Image3" runat="server" Height="240px" ImageUrl="~/Gambar/payung-horz.jpg" Width="640px"></asp:Image>
+            </center>
+            <asp:Label ID="Label3" runat="server" Text="Oleh karena itu, kami berinisiatif untuk memberi pengetahuan kepada masyarakat tentang bagaimana mengolah sampai menjadi barang yang memiliki nilai jual dan bermanfaat, melalui sistem bernama <B>DJSampah</b>. Dengan kreativitas yang kita miliki dalam mengolah sampah, dan kami akan memberikan saldo kepada orang yang mengumpulkan sampah tertentu kemudian memberikannya ketempat penampungan sampah yang akan mengolah sampah tersebut sehingga mereka juga bisa membelanjakan saldo tersebut untuk barang yang telah jadi. Tentunya kami berharap sistem ini akan berdampak langsung terhadap peningkatan taraf perekonomian masyarakat dan mengurangi jumlah sampah yang dihasilkan dengan berdampak positif terhadap lingkungan menjadi barang yang bermanfaat." style="text-align: justify"></asp:Label>
+            </div>
 	</div>
 </div>
 <!-- //contact-page -->		
