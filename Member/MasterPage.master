@@ -36,7 +36,7 @@
 					</ul>
 				</div>
 				<div class="header-right">
-                    <asp:HyperLink ID="logout" runat="server" ForeColor="White" NavigateUrl="~/Default.aspx"><span class="glyphicon glyphicon-user"> </span>Logout</asp:HyperLink>
+                    <asp:HyperLink ID="logout" runat="server" ForeColor="White" NavigateUrl="~/Beranda.aspx"><span class="glyphicon glyphicon-user"> </span>Logout</asp:HyperLink>
 				</div>
 				<div class="clearfix"> </div>
 			</div>
