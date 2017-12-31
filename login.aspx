@@ -115,7 +115,6 @@ body {
       <asp:TextBox ID="txtusername" runat="server"></asp:TextBox>
       <asp:TextBox ID="txtpassword" runat="server" TextMode="Password"></asp:TextBox>
       <asp:Button ID="btnlogin" runat="server" Text="Login" />
-      <p class="message">Not registered? <a href="#">Create an account</a></p>
     </form>
   </div>
 </div>
