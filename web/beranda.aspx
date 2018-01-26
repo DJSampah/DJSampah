@@ -96,7 +96,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		<div class="content">
             <center>
 			<div class="categories">
-                <asp:Image ID="Image1" runat="server"></asp:Image>
+                <asp:Image ID="Image1" runat="server" ImageUrl="~/Gambar/DESAIN.jpg"></asp:Image>
 			</div>
 			<!-- //slider -->				
         </div>
