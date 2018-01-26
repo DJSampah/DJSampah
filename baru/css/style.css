@@ -11,7 +11,7 @@ p {margin: 0;}
 html, body{
    font-family: 'Raleway', sans-serif;
    font-size: 100%;
-   background:#fff; 
+   background:#99ca44; 
 }
 body a{
 	transition:0.5s all;
@@ -21,7 +21,7 @@ body a{
 	-ms-transition:0.5s all;
 }
 .header{
-	background: #97a432;
+	background: url(../images/1.jpg) no-repeat center top;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -37,7 +37,7 @@ body a{
 	margin-left:4em;
 }
 .header_right{
-	float:left;
+	float:right;
 	margin-top: 2em;
 	width: 24%;
 }
@@ -505,6 +505,7 @@ h3.menu_head{
 }
 ul.nav{
 	padding:14px 0;
+	list-style:none;
 	background:#39b54a;
 }
 ul.nav li:hover {
