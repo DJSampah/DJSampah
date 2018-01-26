@@ -1,29 +1,26 @@
-<!--A Design by W3layouts
-Author: W3layout
-Author URL: http://w3layouts.com
-License: Creative Commons Attribution 3.0 Unported
-License URL: http://creativecommons.org/licenses/by/3.0/
--->
-<!DOCTYPE HTML>
-<html>
-<head>
-<title>Surfhouse Bootstarp Website Template | Home :: w3layouts</title>
-<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+﻿<%@ Page Language="VB" AutoEventWireup="false" CodeFile="pojok.aspx.vb" Inherits="pojok" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Surfhouse Bootstarp Website Template | Home :: w3layouts</title>
+    <link href="/baru/css/bootstrap.css" rel='stylesheet' type='text/css' />
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-<script src="js/jquery.min.js"></script>
+<script src="/baru/js/jquery.min.js"></script>
 <!-- Custom Theme files -->
-<link href="css/style.css" rel='stylesheet' type='text/css' />
+<link href="/baru/css/style.css" rel='stylesheet' type='text/css' />
 <!-- Custom Theme files -->
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
 <!--webfont-->
 <link href='http://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800,900' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700,800,900' rel='stylesheet' type='text/css'>
-<script src="js/jquery.easydropdown.js"></script>
+<script src../js/jquery.easydropdown.js"></script>
 <!-- Add fancyBox main JS and CSS files -->
-<script src="js/jquery.magnific-popup.js" type="text/javascript"></script>
-<link href="css/magnific-popup.css" rel="stylesheet" type="text/css">
-		<script>
+<script src="/baru/js/jquery.magnific-popup.js" type="text/javascript"></script>
+<link href="/baru/css/magnific-popup.css" rel="stylesheet" type="text/css">
+<script>
 			$(document).ready(function() {
 				$('.popup-with-zoom-anim').magnificPopup({
 					type: 'inline',
@@ -216,16 +213,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					<div class="menu_box">
 				   	  	<h3 class="menu_head">Menu</h3>
 				   	     <ul class="nav">
-					   	  	<li><a href="apparel.html">About</a></li>
-					   	  	<li><a href="apparel.html">Apparel</a></li>
-					   	  	<li><a href="apparel.html">Surf Apparel</a></li>
-					   	  	<li><a href="apparel.html">Windsurf</a></li>
-					   	  	<li><a href="apparel.html">Kitesurf</a></li>
-					   	  	<li><a href="apparel.html">Accessories</a></li>
-					   	  	<li><a href="apparel.html">Sale</a></li>
-					   	  	<li><a href="apparel.html">Brands</a></li>
-					   	  	<li><a href="apparel.html">Blog</a></li>
-					   	  	<li><a href="apparel.html">Gadgets</a></li>
+					   	  	<li><a href="apparel.html">Pojok Kreatifitas</a></li>
+					   	  	<li><a href="apparel.html">Tentang Kami</a></li>
 					   	  	<li><a href="contact.html">Contact</a></li>
 					   	 </ul>
 			   	    </div>
@@ -656,4 +645,5 @@ License URL: http://creativecommons.org/licenses/by/3.0/
         	</div>
         </div>
 </body>
-</html>		
+</html>
+

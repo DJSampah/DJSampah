@@ -1,18 +1,14 @@
-<!--A Design by W3layouts
-Author: W3layout
-Author URL: http://w3layouts.com
-License: Creative Commons Attribution 3.0 Unported
-License URL: http://creativecommons.org/licenses/by/3.0/
--->
-<!DOCTYPE HTML>
-<html>
-<head>
+﻿<%@ Page Language="VB" AutoEventWireup="false" CodeFile="beranda.aspx.vb" Inherits="web_baru_user_beranda" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
 <title>Surfhouse Bootstarp Website Template | Home :: w3layouts</title>
-<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+<link href="../css/bootstrap.css" rel='stylesheet' type='text/css' />
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="js/jquery.min.js"></script>
 <!-- Custom Theme files -->
-<link href="css/style.css" rel='stylesheet' type='text/css' />
+<link href="../css/style.css" rel='stylesheet' type='text/css' />
 <!-- Custom Theme files -->
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
@@ -21,8 +17,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <link href='http://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700,800,900' rel='stylesheet' type='text/css'>
 <script src="js/jquery.easydropdown.js"></script>
 <!-- Add fancyBox main JS and CSS files -->
-<script src="js/jquery.magnific-popup.js" type="text/javascript"></script>
-<link href="css/magnific-popup.css" rel="stylesheet" type="text/css">
+<script src="../js/jquery.magnific-popup.js" type="text/javascript"></script>
+<link href="../css/magnific-popup.css" rel="stylesheet" type="text/css">
 		<script>
 			$(document).ready(function() {
 				$('.popup-with-zoom-anim').magnificPopup({
@@ -38,7 +34,6 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			});
 		});
 		</script>
-</head>
 <body>
 <div class="header">	
       <div class="container"> 
@@ -71,38 +66,37 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			   <div class="wmuSliderWrapper">
 				   <article style="position: absolute; width: 100%; opacity: 0;"> 
 				   	<div class="banner-wrap">
-               <div class="bannertop_box">
-                   <ul class="login">
-                       <li class="login_text"><a href="#">Login</a></li>
-                       <li class="wish"><a href="#">Wish List</a></li>
-                       <div class='clearfix'></div>
-                   </ul>
-                   <div class="cart_bg">
-                       <ul class="cart">
-                           <i class="cart_icon"></i>
-                           <p class="cart_desc">$1459.50<br><span class="yellow">2 items</span></p>
-                           <div class='clearfix'></div>
-                       </ul>
-                       <ul class="product_control_buttons">
-                           <li><a href="#"><img src="images/close.png" alt="" /></a></li>
-                           <li><a href="#">Edit</a></li>
-                       </ul>
-                       <div class='clearfix'></div>
-                   </div>
-                   <ul class="quick_access">
-                       <li class="view_cart"><a href="#">View Cart</a></li>
-                       <li class="check"><a href="#">Checkout</a></li>
-                       <div class='clearfix'></div>
-                   </ul>
-                   <div class="search">
-                       <input type="text" value="Search" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Search';}">
-                       <input type="submit" value="">
-                   </div>
-                   <div class="welcome_box">
-                       <h2>Welcome to Surfhouse</h2>
-                       <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euism</p>
-                   </div>
-               </div>
+				   	       <div class="bannertop_box">
+				   		 		<ul class="login">
+				   		 			<li class="login_text"><a href="login.html">Login</a></li>
+				   		 			<li class="wish"><a href="checkout.html">Wish List</a></li>
+				   		 			<div class='clearfix'></div>
+				   		 		</ul>
+				   		 		<div class="cart_bg">
+					   		 		<ul class="cart">
+					   		 		   <i class="cart_icon"></i><p class="cart_desc">$1459.50<br><span class="yellow">2 items</span></p>
+					   		 		   <div class='clearfix'></div>
+					   		 		</ul>
+					   		 		<ul class="product_control_buttons">
+							  	      <li><a href="#"><img src="images/close.png" alt=""/></a></li>
+							  	      <li><a href="#">Edit</a></li>
+							  		</ul>
+							  		<div class='clearfix'></div>
+							  	</div>
+							  	<ul class="quick_access">
+				   		 			<li class="view_cart"><a href="checkout.html">View Cart</a></li>
+				   		 			<li class="check"><a href="checkout.html">Checkout</a></li>
+				   		 			<div class='clearfix'></div>
+				   		 		</ul>
+				   		 		<div class="search">
+					  			   <input type="text" value="Search" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Search';}">
+								   <input type="submit" value="">
+					  			</div>
+					  			<div class="welcome_box">
+					  				<h2>Welcome to Surfhouse</h2>
+					  				<p>The onliy online store you will ever need for all your windsurfing and kitesurfing and SUP nedds</p>
+					  			</div>
+				   		 	</div>
 				   		 	<div class="banner_right">
 				   		 		<h1>Feugait<br> 2014</h1>
 				   		 		<p>Super easy going freeride boards based on the X-Cite Ride shape concept with additional cpntrol and super easy jibing.</p>
@@ -656,4 +650,4 @@ License URL: http://creativecommons.org/licenses/by/3.0/
         	</div>
         </div>
 </body>
-</html>		
+</html>

@@ -1,29 +1,26 @@
-<!--A Design by W3layouts
-Author: W3layout
-Author URL: http://w3layouts.com
-License: Creative Commons Attribution 3.0 Unported
-License URL: http://creativecommons.org/licenses/by/3.0/
--->
-<!DOCTYPE HTML>
-<html>
-<head>
-<title>Surfhouse Bootstarp Website Template | Home :: w3layouts</title>
-<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+﻿<%@ Page Language="VB" AutoEventWireup="false" CodeFile="index.aspx.vb" Inherits="baru_index" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Surfhouse Bootstarp Website Template | Home :: w3layouts</title>
+    <link href="/baru/css/bootstrap.css" rel='stylesheet' type='text/css' />
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-<script src="js/jquery.min.js"></script>
+<script src="/baru/js/jquery.min.js"></script>
 <!-- Custom Theme files -->
-<link href="css/style.css" rel='stylesheet' type='text/css' />
+<link href="/baru/css/style.css" rel='stylesheet' type='text/css' />
 <!-- Custom Theme files -->
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
 <!--webfont-->
 <link href='http://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800,900' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700,800,900' rel='stylesheet' type='text/css'>
-<script src="js/jquery.easydropdown.js"></script>
+<script src../js/jquery.easydropdown.js"></script>
 <!-- Add fancyBox main JS and CSS files -->
-<script src="js/jquery.magnific-popup.js" type="text/javascript"></script>
-<link href="css/magnific-popup.css" rel="stylesheet" type="text/css">
-		<script>
+<script src="/baru/js/jquery.magnific-popup.js" type="text/javascript"></script>
+<link href="/baru/css/magnific-popup.css" rel="stylesheet" type="text/css">
+<script>
 			$(document).ready(function() {
 				$('.popup-with-zoom-anim').magnificPopup({
 					type: 'inline',
@@ -47,20 +44,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				<a href="index.html"><img src="images/logo.png" alt=""/></a>
 			 </div>
 		   <div class="header_right">
-			 <ul class="social">
-				<li><a href=""> <i class="fb"> </i> </a></li>
-				<li><a href=""><i class="tw"> </i> </a></li>
-				<li><a href=""><i class="utube"> </i> </a></li>
-				<li><a href=""><i class="pin"> </i> </a></li>
-				<li><a href=""><i class="instagram"> </i> </a></li>
-			 </ul>
 		    <div class="lang_list">
-			  <select tabindex="4" class="dropdown">
-				<option value="" class="label" value="">En</option>
-				<option value="1">English</option>
-				<option value="2">French</option>
-				<option value="3">German</option>
-			  </select>
    			</div>
 			<div class="clearfix"></div>
           </div>
@@ -216,17 +200,9 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					<div class="menu_box">
 				   	  	<h3 class="menu_head">Menu</h3>
 				   	     <ul class="nav">
-					   	  	<li><a href="apparel.html">About</a></li>
-					   	  	<li><a href="apparel.html">Apparel</a></li>
-					   	  	<li><a href="apparel.html">Surf Apparel</a></li>
-					   	  	<li><a href="apparel.html">Windsurf</a></li>
-					   	  	<li><a href="apparel.html">Kitesurf</a></li>
-					   	  	<li><a href="apparel.html">Accessories</a></li>
-					   	  	<li><a href="apparel.html">Sale</a></li>
-					   	  	<li><a href="apparel.html">Brands</a></li>
-					   	  	<li><a href="apparel.html">Blog</a></li>
-					   	  	<li><a href="apparel.html">Gadgets</a></li>
-					   	  	<li><a href="contact.html">Contact</a></li>
+					   	  	    <li><asp:HyperLink ID="pojok" runat="server" NavigateUrl="~/baru/pojok.aspx">Pojok Kreatifitas</asp:HyperLink></li>
+                                <li><asp:HyperLink ID="tentang" runat="server" NavigateUrl="~/baru/tentang.aspx">Tentang Kami</asp:HyperLink></li>
+                                <li><asp:HyperLink ID="contact" runat="server" NavigateUrl="~/baru/contact.aspx">Kontak</asp:HyperLink></li>
 					   	 </ul>
 			   	    </div>
 			   	    <div class="side_banner">
@@ -238,40 +214,18 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				    <div class="tags">
 				    	<h4 class="tag_head">Tags Widget</h4>
 				         <ul class="tags_links">
-							<li><a href="#">Kitesurf</a></li>
-							<li><a href="#">Super</a></li>
-							<li><a href="#">Duper</a></li>
-							<li><a href="#">Theme</a></li>
-							<li><a href="#">Men</a></li>
-							<li><a href="#">Women</a></li>
-							<li><a href="#">Equipment</a></li>
-							<li><a href="#">Best</a></li>
-							<li><a href="#">Accessories</a></li>
-							<li><a href="#">Men</a></li>
-							<li><a href="#">Apparel</a></li>
-							<li><a href="#">Super</a></li>
-							<li><a href="#">Duper</a></li>
-							<li><a href="#">Theme</a></li>
-							<li><a href="#">Responsiv</a></li>
-					        <li><a href="#">Women</a></li>
-							<li><a href="#">Equipment</a></li>
+							    <li><asp:HyperLink ID="ToBeContinue1" runat="server" NavigateUrl="~/baru/pojok.aspx">To Be Continue</asp:HyperLink></li>
+                                <li><asp:HyperLink ID="ToBeContinue2" runat="server" NavigateUrl="~/baru/tentang.aspx">To Be Continue</asp:HyperLink></li>
+                                <li><asp:HyperLink ID="ToBeContinue3" runat="server" NavigateUrl="~/baru/contact.aspx">To Be Continue</asp:HyperLink></li>
 						</ul>
 						<a href="#" class="link1">View all tags</a>
 				     </div>
 				     <div class="tags">
 				      	<h4 class="tag_head">Articles Experts</h4>
 				      	 <ul class="article_links">
-							<li><a href="#">Eleifend option congue nihil</a></li>
-							<li><a href="#">Investigationes demonst</a></li>
-							<li><a href="#">Qui sequitur mutationem</a></li>
-							<li><a href="#">videntur parum clar sollemnes</a></li>
-							<li><a href="#">ullamcorper suscipit lobortis</a></li>
-							<li><a href="#">commodo consequat. Duis autem</a></li>
-							<li><a href="#">Investigationes demonst</a></li>
-							<li><a href="#">ullamcorper suscipit lobortis</a></li>
-							<li><a href="#">Qui sequitur mutationem</a></li>
-							<li><a href="#">videntur parum clar sollemnes</a></li>
-							<li><a href="#">ullamcorper suscipit lobortis</a></li>
+							<li><asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/baru/pojok.aspx">To Be Continue</asp:HyperLink></li>
+                                <li><asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="~/baru/tentang.aspx">To Be Continue</asp:HyperLink></li>
+                                <li><asp:HyperLink ID="HyperLink3" runat="server" NavigateUrl="~/baru/contact.aspx">To Be Continue</asp:HyperLink></li>
 						  </ul>
 						 <a href="#" class="link1">View all</a>
 				      </div>
@@ -551,45 +505,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		 </div>
 		</div>
 		<div class="container">
-		  <div class="brands">
-			 <ul class="brand_icons">
-				<li><img src='images/icon1.jpg' class="img-responsive" alt=""/></li>
-				<li><img src='images/icon2.jpg' class="img-responsive" alt=""/></li>
-				<li><img src='images/icon3.jpg' class="img-responsive" alt=""/></li>
-				<li><img src='images/icon4.jpg' class="img-responsive" alt=""/></li>
-				<li><img src='images/icon5.jpg' class="img-responsive" alt=""/></li>
-				<li><img src='images/icon6.jpg' class="img-responsive" alt=""/></li>
-				<li class="last"><img src='images/icon7.jpg' class="img-responsive" alt=""/></li>
-			 </ul>
-		   </div>
 	    </div>
 	    <div class="container">
-	      <div class="instagram_top">
-	      	<div class="instagram text-center">
-				<h3><i class="insta_icon"> </i> Instagram feed:&nbsp;<span class="small">#Surfhouse</span></h3>
-			</div>
-	        <ul class="instagram_grid">
-			  <li><a class="popup-with-zoom-anim" href="#small-dialog1"><img src="images/i1.jpg" class="img-responsive"alt=""/></a></li>
-			  <li><a class="popup-with-zoom-anim" href="#small-dialog1"><img src="images/i2.jpg" class="img-responsive" alt=""/></a></li>
-			  <li><a class="popup-with-zoom-anim" href="#small-dialog1"><img src="images/i3.jpg" class="img-responsive" alt=""/></a></li>
-			  <li><a class="popup-with-zoom-anim" href="#small-dialog1"><img src="images/i4.jpg" class="img-responsive" alt=""/></a></li>
-			  <li><a class="popup-with-zoom-anim" href="#small-dialog1"><img src="images/i5.jpg" class="img-responsive" alt=""/></a></li>
-			  <li class="last_instagram"><a class="popup-with-zoom-anim" href="#small-dialog1"><img src="images/i6.jpg" class="img-responsive" alt=""/></a></li>
-			  <div class="clearfix"></div>
-			  <div id="small-dialog1" class="mfp-hide">
-				<div class="pop_up">
-					<h4>A Sample Photo Stream</h4>
-					<img src="images/i_zoom.jpg" class="img-responsive" alt=""/>
-				</div>
-			  </div>
-			</ul>
-		  </div>
-	      <ul class="footer_social">
-			<li><a href="#"> <i class="fb"> </i> </a></li>
-			<li><a href="#"><i class="tw"> </i> </a></li>
-			<li><a href="#"><i class="pin"> </i> </a></li>
-			<div class="clearfix"></div>
-		   </ul>
 	    </div>
      </div>
      <div class="footer">
@@ -656,4 +573,4 @@ License URL: http://creativecommons.org/licenses/by/3.0/
         	</div>
         </div>
 </body>
-</html>		
+</html>

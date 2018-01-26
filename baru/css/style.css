@@ -11,7 +11,7 @@ p {margin: 0;}
 html, body{
    font-family: 'Raleway', sans-serif;
    font-size: 100%;
-   background:#f8f8f8; 
+   background:#99ca44; 
 }
 body a{
 	transition:0.5s all;
@@ -114,7 +114,7 @@ ul.wmuSliderPagination {
 	text-indent: -9999px;
 	width:60px;
 	height:4px;
-	background:#7159a6;
+	background:#ffe850;
 }
 .wmuSliderPagination a.wmuActive {
 	background:#fb4d01;
@@ -197,7 +197,7 @@ p.cart_desc {
 }
 span.yellow{
 	font-size:13px;
-	color:#7159a6;
+	color:#ffe850;
 }
 ul.product_control_buttons{
 	padding:0;
@@ -253,7 +253,7 @@ ul.quick_access li.check{
 	background: url('../images/search.png') no-repeat 8px 9px #fb4d01;
 }
 .welcome_box{
-	background:#7159a6;
+	background:#ffe850;
 	padding:5em 1.4em;
 	margin-top:10px;
 }
@@ -277,19 +277,19 @@ ul.quick_access li.check{
 	padding-right: 10em;
 }
 .banner_right h1{
-	color:#7159a6;
+	color:#ffe850;
 	font-size:4em;
 	font-weight:bold;
 	line-height: 0.9em;
 }
 .banner_right p{
 	float:right;
-	color:#7159a6;
+	color:#ffe850;
 	font-size:1.1em;
 }
 .banner_btn {
 	display: inline-block;
-	background: #7159a6;
+	background: #ffe850;
 	padding:16px 25px;
 	color: #333;
 	font-size: 0.85em;
@@ -506,7 +506,7 @@ h3.menu_head{
 ul.nav{
 	padding:14px 0;
 	list-style:none;
-	background:#26d2fc;
+	background:#39b54a;
 }
 ul.nav li:hover {
 	background:#333;
@@ -949,7 +949,7 @@ ul.list1 a {
 	width:70.33%;
 	line-height: 1.5em;
 	font-size: 0.8125em;
-	background: #7159a6;
+	background: #ffe850;
 	text-transform: uppercase;
 }
 .search_footer input[type="submit"] {
@@ -986,7 +986,7 @@ p.f_text{
 	margin-bottom:0.5em;
 }
 p.email{
-	color:#7159a6;
+	color:#ffe850;
 	font-size:0.85em;
 	font-family: 'Roboto', sans-serif;
 }
@@ -1103,11 +1103,11 @@ ul.women_pagenation li a {
 	text-transform:uppercase;
 }
 ul.women_pagenation li.active a{
-	background:#26d2fc;
+	background:#39b54a;
 	color:#fff;
 }
 ul.women_pagenation li a:hover{
-	background:#26d2fc;
+	background:#39b54a;
 	color:#fff;
 }
 .limiter.visible-desktop label{
@@ -1423,7 +1423,7 @@ h3.recent{
 	color: #F27141;
 }
 .resp-tab-active{
-	background:#26d2fc;
+	background:#39b54a;
 	text-shadow: none;
 	color:#000;
 }
@@ -1548,7 +1548,7 @@ p.comment-form-author {
 	-o-transition: 0.2s;
 }
 .contact-form input[type="submit"]:hover{
-	background:#26d2fc;	
+	background:#39b54a;	
 }
 .map{
 	position:relative;
@@ -1649,7 +1649,7 @@ i.mail{
 	text-transform: uppercase;
 }
 .acount-btn:hover, .login-right input[type="submit"]:hover{
-	background:#26d2fc;
+	background:#39b54a;
 	text-decoration:none;
 	color:#fff;
 }
@@ -1806,7 +1806,7 @@ a.forgot {
 	outline:none;
 }
 .register-but input[type="submit"]:hover {
-	background:#26d2fc;
+	background:#39b54a;
 }
 div.register-bottom-grid {
 	margin-top:3em;
