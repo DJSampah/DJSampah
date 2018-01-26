@@ -94,7 +94,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	</div>
 		<!-- content-starts-here -->
 		<div class="content">
-			<div class="categories-center">
+            <center>
+			<div class="categories">
 				<div class="container">
 					<div class="col-md-2 focus-grid">
 						<a href="categories.html">
@@ -129,12 +130,14 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<div class="clearfix"></div>
 				</div>
 			</div>
+                </center>
 			<div class="trending-ads">
 				<div class="container">
 				<!-- slider -->
 				<div class="trend-ads">
 					<h2>Trending Ads</h2>
 							<ul id="flexiselDemo3">
+								<li>
 									<div class="col-md-3 biseller-column">
 										<a href="single.html">
 											<img src="images/p1.jpg"/>
@@ -174,7 +177,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 											<h5>passage of Lorem Ipsum you need to be</h5>
 											<span>19 hour ago</span>
 										</div>
-									</div>						
+									</div>
+								</li>								
 						</ul>
 					<script type="text/javascript">
 						 $(window).load(function() {
