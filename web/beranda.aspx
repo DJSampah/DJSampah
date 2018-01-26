@@ -77,9 +77,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<a href="index.html"><span>Re</span>sale</a>
 			</div>
 			<div class="header-right">
-			<a class="account" href="login.html">My Account</a>
-            <a class="account" href="login.html">My Account</a>
-            <a class="account" href="login.html">My Account</a>
+            <asp:HyperLink ID="HyperLink1" runat="server" class="account" NavigateUrl="~/web/beranda.aspx">Home</asp:HyperLink>
+            <asp:HyperLink ID="HyperLink2" runat="server" class="account" NavigateUrl="~/web/pojok.aspx">Pojok Kreatifitas</asp:HyperLink>
+            <asp:HyperLink ID="HyperLink3" runat="server" class="account" NavigateUrl="~/web/tentang.aspx">Tentang Kami</asp:HyperLink>
+            <asp:HyperLink ID="HyperLink4" runat="server" class="account" NavigateUrl="~/web/tentang.aspx">Kontak</asp:HyperLink>
 	<!-- Large modal -->
 		</div>
 		</div>
