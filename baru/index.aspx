@@ -37,159 +37,20 @@
 		</script>
 </head>
 <body>
-<div class="header">	
+    <div class="header">	
       <div class="container"> 
          <div class="header-top">
       		 <div class="logo">
 				<a href="index.html"><img src="images/logo.png" alt=""/></a>
 			 </div>
-		   <div class="header_right">
-		    <div class="lang_list">
-   			</div>
-			<div class="clearfix"></div>
-          </div>
-          <div class="clearfix"></div>
-		 </div>  
-		 <div class="index-banner">
-       	   <div class="wmuSlider example1">
-			   <div class="wmuSliderWrapper">
-				   <article style="position: absolute; width: 100%; opacity: 0;"> 
-				   	<div class="banner-wrap">
-               <div class="bannertop_box">
-                   <ul class="login">
-                       <li class="login_text"><a href="#">Login</a></li>
-                       <li class="wish"><a href="#">Wish List</a></li>
-                       <div class='clearfix'></div>
-                   </ul>
-                   <div class="cart_bg">
-                       <ul class="cart">
-                           <i class="cart_icon"></i>
-                           <p class="cart_desc">$1459.50<br><span class="yellow">2 items</span></p>
-                           <div class='clearfix'></div>
-                       </ul>
-                       <ul class="product_control_buttons">
-                           <li><a href="#"><img src="images/close.png" alt="" /></a></li>
-                           <li><a href="#">Edit</a></li>
-                       </ul>
-                       <div class='clearfix'></div>
-                   </div>
-                   <ul class="quick_access">
-                       <li class="view_cart"><a href="#">View Cart</a></li>
-                       <li class="check"><a href="#">Checkout</a></li>
-                       <div class='clearfix'></div>
-                   </ul>
-                   <div class="search">
-                       <input type="text" value="Search" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Search';}">
-                       <input type="submit" value="">
-                   </div>
-                   <div class="welcome_box">
-                       <h2>Welcome to Surfhouse</h2>
-                       <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euism</p>
-                   </div>
-               </div>
-				   		 	<div class="banner_right">
-				   		 		<h1>Feugait<br> 2014</h1>
-				   		 		<p>Super easy going freeride boards based on the X-Cite Ride shape concept with additional cpntrol and super easy jibing.</p>
-				   		 		<a href="#" class="banner_btn">Buy Now</a>
-				   		 	</div>
-				   		 	<div class='clearfix'></div>
-				   	  </div>
-					</article>
-				   <article style="position: relative; width: 100%; opacity: 1;"> 
-				   	   <div class="banner-wrap">
-				   	      <div class="bannertop_box">
-				   		 		<ul class="login">
-				   		 			<li class="login_text"><a href="#">Login</a></li>
-				   		 			<li class="wish"><a href="#">Wish List</a></li>
-				   		 			<div class='clearfix'></div>
-				   		 		</ul>
-				   		 		<div class="cart_bg">
-					   		 		<ul class="cart">
-					   		 		   <i class="cart_icon"></i><p class="cart_desc">$1459.50<br><span class="yellow">2 items</span></p>
-					   		 		   <div class='clearfix'></div>
-					   		 		</ul>
-					   		 		<ul class="product_control_buttons">
-							  	      <li><a href="#"><img src="images/close.png" alt=""/></a></li>
-							  	      <li><a href="#">Edit</a></li>
-							  		</ul>
-							  		<div class='clearfix'></div>
-							  	</div>
-							  	<ul class="quick_access">
-				   		 			<li class="view_cart"><a href="#">View Cart</a></li>
-				   		 			<li class="check"><a href="#">Checkout</a></li>
-				   		 			<div class='clearfix'></div>
-				   		 		</ul>
-				   		 		<div class="search">
-					  			   <input type="text" value="Search" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Search';}">
-								   <input type="submit" value="">
-					  			</div>
-					  			<div class="welcome_box">
-					  				<h2>Welcome to Surfhouse</h2>
-					  				<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euism</p>
-					  			</div>
-				   		 	</div>
-				   		 	<div class="banner_right">
-				   		 		<h1>Mutation<br> 2014</h1>
-				   		 		<p>Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo.</p>
-				   		 		<a href="#" class="banner_btn">Buy Now</a>
-				   		 	</div>
-				   		 	<div class='clearfix'></div>
-				   		</div>
-				   </article>
-				   <article style="position: absolute; width: 100%; opacity: 0;">
-				   	  <div class="banner-wrap">
-				   	       <div class="bannertop_box">
-				   		 		<ul class="login">
-				   		 			<li class="login_text"><a href="login.html">Login</a></li>
-				   		 			<li class="wish"><a href="#">Wish List</a></li>
-				   		 			<div class='clearfix'></div>
-				   		 		</ul>
-				   		 		<div class="cart_bg">
-					   		 		<ul class="cart">
-					   		 		   <i class="cart_icon"></i><p class="cart_desc">$1459.50<br><span class="yellow">2 items</span></p>
-					   		 		   <div class='clearfix'></div>
-					   		 		</ul>
-					   		 		<ul class="product_control_buttons">
-							  	      <li><a href="#"><img src="images/close.png" alt=""/></a></li>
-							  	      <li><a href="#">Edit</a></li>
-							  		</ul>
-							  		<div class='clearfix'></div>
-							  	</div>
-							  	<ul class="quick_access">
-				   		 			<li class="view_cart"><a href="#">View Cart</a></li>
-				   		 			<li class="check"><a href="#">Checkout</a></li>
-				   		 			<div class='clearfix'></div>
-				   		 		</ul>
-				   		 		<div class="search">
-					  			   <input type="text" value="Search" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Search';}">
-								   <input type="submit" value="">
-					  			</div>
-					  			<div class="welcome_box">
-					  				<h2>Welcome to Surfhouse</h2>
-					  				<p>Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes in futurum.</p>
-					  			</div>
-				   		 	</div>
-				   		 	<div class="banner_right">
-				   		 		<h1>Jp Funride<br> 2014</h1>
-				   		 		<p>Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera.</p>
-				   		 		<a href="#" class="banner_btn">Buy Now</a>
-				   		 	</div>
-				   		 	<div class='clearfix'></div>
-				   		 </div>
-					 </article>
-				 </div>
-				<a class="wmuSliderPrev">Previous</a><a class="wmuSliderNext">Next</a>
-                <ul class="wmuSliderPagination">
-                	<li><a href="#" class="">0</a></li>
-                	<li><a href="#" class="">1</a></li>
-                	<li><a href="#" class="wmuActive">2</a></li>
-                </ul>
-            </div>
-            <script src="js/jquery.wmuSlider.js"></script> 
-			  <script>
-       			$('.example1').wmuSlider();         
-   		     </script> 	           	      
-      </div>
+             <div class="header_right">
+                        <ul class="nav">
+                            <li><a href="apparel.html">Pojok Kreatifitas</a></li>
+					   	  	<li><a href="apparel.html">Tentang Kami</a></li>
+					   	  	<li><a href="contact.html">Contact</a></li>
+					   	 </ul>
+                 </div>
+		 </div>
 	 </div>     
 	</div>
 	<div class="main">
@@ -197,14 +58,6 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-3">
-					<div class="menu_box">
-				   	  	<h3 class="menu_head">Menu</h3>
-				   	     <ul class="nav">
-					   	  	    <li><asp:HyperLink ID="pojok" runat="server" NavigateUrl="~/baru/pojok.aspx">Pojok Kreatifitas</asp:HyperLink></li>
-                                <li><asp:HyperLink ID="tentang" runat="server" NavigateUrl="~/baru/tentang.aspx">Tentang Kami</asp:HyperLink></li>
-                                <li><asp:HyperLink ID="contact" runat="server" NavigateUrl="~/baru/contact.aspx">Kontak</asp:HyperLink></li>
-					   	 </ul>
-			   	    </div>
 			   	    <div class="side_banner">
 					   <div class="banner_img"><img src="images/pic9.jpg" class="img-responsive" alt=""/></div>
 					   <div class="banner_holder">
