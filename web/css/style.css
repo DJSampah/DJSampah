@@ -4,6 +4,94 @@ Author URL: http://w3layouts.com
 License: Creative Commons Attribution 3.0 Unported
 License URL: http://creativecommons.org/licenses/by/3.0/
 --*/
+/*-- contact-page-starts-here --*/
+.contact {
+	padding: 60px 0;
+}
+.contact-info {
+	margin-bottom: 40px;
+}
+.contact-left{
+	width:30%;
+	float:left;
+}
+.contact-right{
+	width:68%;
+	float:right;
+}
+.contact-left input[type="text"]{
+	width: 100%;
+	color: #000;
+	margin: 0 23px 23px 0;
+	font-size:14px;
+	padding: 12px 10px;
+	outline: none;
+	border: 1px solid #e8e8e8;
+}
+.contact-right textarea{
+	width: 100%;
+	color: #000;
+	font-size:14px;
+	resize: none;
+	height: 185px;
+	padding: 12px;
+	outline: none;
+	border: 1px solid #e8e8e8;
+}
+.contact-left textarea{
+	width: 1170px;
+	color: #000;
+	font-size:14px;
+	resize: none;
+	height: 185px;
+	padding: 12px;
+	outline: none;
+	border: 1px solid #e8e8e8;
+}
+.contact-form input[type=submit] {
+	border:none;
+	color: #ffffff;
+	padding: 13px 43px;
+	font-size: 14px;
+	cursor: pointer;
+	font-weight: 500;
+	background:#01a185;
+}
+.contact-form input[type=submit]:hover {
+	background:#f3c500;
+	transition: .5s all;
+	-webkit-transition: .5s all;
+	-o-transition: .5s all;
+	-ms-transition: .5s all;
+	-moz-transition: .5s all;	
+}
+.contact-info h2{
+	text-align: center;
+    margin: 0 0 20px 0;
+    font-size: 24px;
+    color: #000000;
+    font-weight: 600;
+    text-transform: uppercase;
+	padding: 0;
+}
+.contact-info h3{
+	text-align: center;
+    margin: 0 0 20px 0;
+    font-size: 24px;
+    color: #000000;
+    font-weight: 600;
+    text-transform: uppercase;
+	padding: 0;
+}
+.contact-map{
+	width:100%;
+	margin-bottom: 52px;
+}
+.contact-map iframe{
+	width:100%;
+	height:330px;
+}
+/*-- //contact-page-ends-here --*/
 body{
 	padding:0;
 	font-family: 'Open Sans', sans-serif;
@@ -47,13 +135,13 @@ label{
 	margin:0;
 }
 .banner {
-	background:url('~/Template Fix/images/banner.jpg') no-repeat 0px 0px;
+	background:url('../images/banner.jpg') no-repeat 0px 0px;
 	background-size:cover;
 	min-height:240px;
 	padding:45px 0 0 0;
 }
 .main-banner {
-	background:url('~/Template Fix/images/banner.jpg') no-repeat 0px 0px;
+	background:url('../images/banner.jpg') no-repeat 0px 0px;
 	background-size:cover;
 	min-height:400px;
 	padding:100px 0 0 0;
